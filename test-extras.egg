@@ -1,0 +1,8 @@
+((components (extension test-extras))
+ (version 1.0)
+ (license "BSD")
+ (author "Robert C Jensen <robert.cole.jensen@gmail.com>")
+ (synopsis "Miscellaneous extensions to Alex Shinn's `test`")
+ (component-options (csc-options "-O3"))
+ (dependencies test)
+ (test-dependencies test))
